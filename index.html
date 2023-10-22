@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple String Reverser</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Main container for the String Reverser -->
+    <div class="stringReverserContainer">
+      <h1>Simple String Reverser</h1>
+      <!-- Input area for user to enter the string they want to reverse -->
+      <label for="originalString"
+        >Provide the String You'd Like to Reverse:</label
+      >
+      <input
+        type="text"
+        id="originalString"
+        placeholder="Type your string here..."
+      />
+      <!-- Button to initiate the string reversal process -->
+      <button onclick="performStringReversal()">Get Reversed String</button>
+      <!-- Display area for the reversed string result -->
+      <div id="reversedStringDisplay"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

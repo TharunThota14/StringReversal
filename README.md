@@ -1,2 +1,2 @@
 # StringReversal
- Simple String Reversal created with HTML, CSS and JS
+ Simple String Reversal using HTML, CSS and JS
